@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Corny_Bot", "Corny_Bot.csproj", "{365C4D98-027D-4A51-910C-2AEDA505F288}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TheBot", "TheBot", "{7AB39054-DC30-4443-8658-0E4CE938433D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataBase", "DataBase", "{EAC68B22-1B68-4F4A-9557-429C06E667D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserDateBase", "..\UserDateBase\UserDateBase.csproj", "{B59D9060-9F09-4F93-9064-092229821490}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataBase.Migrations", "..\DataBase.Migrations\DataBase.Migrations.csproj", "{56196C3F-E613-46D0-95FC-BF6B01F1EE8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solutions", "Solutions", "{FBDC672E-71BD-43CB-BA9C-50822D470916}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinBotCore", "..\CoinBotCore\CoinBotCore.csproj", "{AC780725-4C18-448B-B3C7-12660D9B0B2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{365C4D98-027D-4A51-910C-2AEDA505F288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{365C4D98-027D-4A51-910C-2AEDA505F288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{365C4D98-027D-4A51-910C-2AEDA505F288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{365C4D98-027D-4A51-910C-2AEDA505F288}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B59D9060-9F09-4F93-9064-092229821490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B59D9060-9F09-4F93-9064-092229821490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B59D9060-9F09-4F93-9064-092229821490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B59D9060-9F09-4F93-9064-092229821490}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56196C3F-E613-46D0-95FC-BF6B01F1EE8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56196C3F-E613-46D0-95FC-BF6B01F1EE8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56196C3F-E613-46D0-95FC-BF6B01F1EE8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56196C3F-E613-46D0-95FC-BF6B01F1EE8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC780725-4C18-448B-B3C7-12660D9B0B2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC780725-4C18-448B-B3C7-12660D9B0B2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC780725-4C18-448B-B3C7-12660D9B0B2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC780725-4C18-448B-B3C7-12660D9B0B2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{365C4D98-027D-4A51-910C-2AEDA505F288} = {7AB39054-DC30-4443-8658-0E4CE938433D}
+		{B59D9060-9F09-4F93-9064-092229821490} = {EAC68B22-1B68-4F4A-9557-429C06E667D8}
+		{56196C3F-E613-46D0-95FC-BF6B01F1EE8A} = {EAC68B22-1B68-4F4A-9557-429C06E667D8}
+		{AC780725-4C18-448B-B3C7-12660D9B0B2F} = {FBDC672E-71BD-43CB-BA9C-50822D470916}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DCC2788-A75F-43B7-8AA5-A33686EF4A1F}
+	EndGlobalSection
+EndGlobal
